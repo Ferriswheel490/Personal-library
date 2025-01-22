@@ -1,3 +1,5 @@
+# Fairus De La Cruz Personal Library
+
 # List music items
 music_library = []
 
@@ -31,7 +33,7 @@ def search_item():
     if not found:
         print("No matches found.\n")
 
-# Function to remove an item from the library
+# remove stuff from library
 def remove_item():
     display_items()
     try:
@@ -44,7 +46,7 @@ def remove_item():
     except ValueError:
         print("Please enter a valid number.\n")
 
-# Main function to run the program
+# run the program
 def run_program():
     while True:
         print("Music Library Menu:")
